@@ -11,6 +11,7 @@
     "nuxt": "^3.0.0-rc.13"
   },
   "dependencies": {
+    "@observablehq/plot": "^0.6.0",
     "d3": "^7.6.1",
     "mapbox-gl": "^2.10.0",
     "remark-unwrap-images": "^3.0.1",

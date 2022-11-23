@@ -77,6 +77,9 @@ onMounted(() => {
       cities.value = csvParse(data);
       console.log(cities.value);
 
+      // set active city to first city
+      activeCity.value = cities.value[0]
+
       // draw a red circle for every city, and when it is clicked, make it the activeCity
       cities.value.forEach((city) => {
         const el = document.createElement('div');
