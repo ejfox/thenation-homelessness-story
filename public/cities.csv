@@ -1,0 +1,18 @@
+name,lat,lon,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,total,Data Source
+"Los Angeles County, CA",34.058762,-118.229362,,,,,,54,65,60,78,73,88,,418,"Center for Health Impact Evaluation, County of Los Angeles Department of Public Health"
+"Clark County, NV",36.293140,-115.163063,,2,0,7,10,12,9,9,8,6,12,11,86,Clark County office of the Coroner/Medical Examiner
+"New York, NY",40.712776,-74.005974,,,,,,8,8,6,7,10,16,22,77,New York City Department of Homeless Services & New York City Department of Health and Mental Hygiene
+"Orange County, CA",33.791489,-117.853104,3,2,3,4,2,9,5,9,12,6,6,11,72,"Coroner Division, Orange County Sheriff's Department"
+"San Diego County, CA",32.855499,-116.423210,2,3,5,7,8,16,3,12,7,3,3,3,72,"Medical Examiner's Office, County of San Diego"
+"Miami-Dade County, FL",25.966560,-80.254330,4,8,3,8,3,5,6,2,8,9,9,5,70,Miami-Dade Medical Examiner Department
+"King County, WA",47.537460,-122.303703,3,0,1,5,2,7,7,8,10,8,10,8,69,King County Medical Examiner's Office
+"Philadelphia, PA",39.952583,-75.165222,3,3,2,2,2,3,5,9,4,8,7,,48,City of Phildelphia Medical Examiner's Office
+"Santa Clara County, CA",37.368649,-121.996323,,,,,2,1,12,2,3,6,9,12,47,"Medical Examiner-Coroner's Office, County of Santa Clara. Note: the following cases were held due to health & safety code 120980: 2014 (2), 2016 (3), 2018 (1), 2019 (2), and 2020 (2)"
+"Sacramento County, CA",38.576931,-121.494949,,,,,,5,4,6,7,6,7,11,46,Sacramento County Coroner's Office
+Washington DC,38.907192,-77.036873,,,0,1,1,3,2,3,2,9,10,14,45,Office of the Chief Medical Examiner for the District of Columbia
+"Metro Denver, CO",39.738450,-104.984850,,,,,,,7,6,5,8,9,8,43,Colorado Coalition for the Homeless
+"Honolulu County, HI",21.322240,-157.815120,1,2,0,8,3,2,1,5,3,10,4,4,43,Honolulu Medical Examiner Office
+"Broward County, FL",26.326710,-80.075150,4,2,2,4,4,7,3,4,2,4,5,,41,Broward County Office of Medical Examiner and Trauma Services
+"Dallas County, TX",32.668990,-96.703400,,0,2,1,5,3,5,7,3,5,7,,38,Dallas County Medical Examiners Office
+"Multnomah County, OR",45.484661,-122.541931,,,,,1,5,3,4,10,6,8,,37,Multnomah County Joint Office of Homeless Services
+"Travis County, TX",31.185980,-97.019699,2,0,1,0,1,4,5,1,0,1,0,,15,Travis County Medical Examiner's Office
