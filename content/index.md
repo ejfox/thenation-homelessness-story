@@ -18,6 +18,8 @@ Murders of unhoused people in the United States [have been on the rise, alarmin
 
 Los Angeles Police Department data shows the rate of homeless homicides has also ramped up this decade — the total for this decade’s three years exceeds all of last decade’s — and experts say violence against homeless people is now surging nationally. LAPD data shows that unhoused people are two or three times as likely to be victims as suspects — and if we remove homeless-on-homeless homicides to focus on “stranger danger” cases, the ratio is three to one.
 
+## Homeless killings in LA are increasing
+
 ![](lapd_crime_stats.png)
 
 Experts say this is what happens when housing unaffordability and compassion fatigue towards people experiencing homelessness meet an historic national surge in [gun deaths](https://www.google.com/url?q=https://www.pewresearch.org/fact-tank/2022/02/03/what-the-data-says-about-gun-deaths-in-the-u-s/&sa=D&source=editors&ust=1669232967478334&usg=AOvVaw14NGcFiXIOlfmXq2GGhWNB). At least a [dozen cities](https://www.google.com/url?q=https://abcnews.go.com/US/12-major-us-cities-top-annual-homicide-records/story?id%3D81466453&sa=D&source=editors&ust=1669232967478584&usg=AOvVaw21rZMIh1p1SfJtvXCwz7Of) saw record homicide totals in 2021.
@@ -40,9 +42,6 @@ Nationally, [mental illness](https://www.google.com/url?q=https://www.usnews.com
 
 After a 2020-2021 halt in encampment sweeps based on C.D.C. [guidance](https://www.google.com/url?q=https://www.cdc.gov/coronavirus/2019-ncov/community/homeless-shelters/unsheltered-homelessness.html&sa=D&source=editors&ust=1669232967481873&usg=AOvVaw0a80u-wdTvZ0zaHw783GZ6) coincided with a “significant decline in attacks” on unhoused people, Davis says, encampment sites are now being swept in [66 U.S. cities](https://www.google.com/url?q=https://nationalhomeless.org/dirty-dozen-meanest-cities/&sa=D&source=editors&ust=1669232967482124&usg=AOvVaw2xmV-8lb2DCp8c_I3vqINz)[ties](https://www.google.com/url?q=https://nationalhomeless.org/dirty-dozen-meanest-cities/&sa=D&source=editors&ust=1669232967482328&usg=AOvVaw0xdhFB8j1s86ZI7zk92eeS).
 
-<iframe width="100%" height="926" frameborder="0"
-  src="https://observablehq.com/embed/69ad90087f85ad9e?cells=bubbleChart"></iframe>
-
 Such actions often occur in partnership with law enforcement, which for DiPietro highlights a tension. How, she wonders, can police be two things: both pulling down tents and investigating homeless people’s deaths?
 
 “If you dehumanize people, how is it that you take their deaths seriously?” she asks.
@@ -52,6 +51,9 @@ There is a scarcity of data on homelessness amongst law enforcement agencies. Th
 An Associated Press investigation [found](https://www.google.com/url?q=https://mynorthwest.com/3327783/la-nyc-killings-spark-anger-raise-risk-for-homeless-people/&sa=D&source=editors&ust=1669232967483974&usg=AOvVaw0Xlnp8gyok8nwcdNeooZU3) that at police departments in large cities with big homeless populations, including New York City, Los Angeles, Portland and Washington, D.C., none except Los Angeles could share data on homelessness without a records request and long wait. When I emailed the NYPD for data, an anonymous response noted, “Please be referred to FOIL,” with a response due, hopefully, in [February](https://www.google.com/url?q=https://a860-openrecords.nyc.gov/request/view/FOIL-2022-056-16711&sa=D&source=editors&ust=1669232967484240&usg=AOvVaw3G_lj35RQ_0BMhOJ8gsoEw).
 
 The LAPD appears to be unique nationally amongst big cities: it actively tracks homelessness, which it offers in searchable form on the city’s open data portal, has a high-ranking “homeless coordinator” and a quick turnaround for records. As of November 22, its data show 341 “homeless homicides” (237 victims and 104 suspects) since 2020, which is more than the previous decade’s 275 total (169 victims and 106 suspects).
+
+<!-- ![LAPD Homeless Homicides](housless_murders_by_county.png) -->
+<img src="housless_murders_by_county.png" class="w-100 w-30-l ph2 mr4-l fr-l" />
 
 Another exception is Oregon. In a [new law](https://www.google.com/url?q=https://centraloregondaily.com/oregon-homeless-deaths-report/&sa=D&source=editors&ust=1669232967484710&usg=AOvVaw36L8ytyE-qX20yDovL2qki) that appears to be the first of its kind, the state is [tracking](https://www.google.com/url?q=https://visual-data.dhsoha.state.or.us/t/OHA/views/Oregonpreliminarydomicileunknowndeaths/Dashboard?%253Adisplay_count%3Dn%26%253Aembed%3Dy%26%253AisGuestRedirectFromVizportal%3Dy%26%253Aorigin%3Dviz_share_link%26%253AshowAppBanner%3Dfalse%26%253AshowVizHome%3Dn&sa=D&source=editors&ust=1669232967485087&usg=AOvVaw2T5nuqN2n-rmh0cqfp5HOK) homeless mortality, including homicides, beginning this year.
 
@@ -69,7 +71,7 @@ Another question concerns the media: why does it disproportionately focus on ho
 
 And why are so many serial killers preying upon unhoused people? Since 2010, they’ve popped up in [San Diego](https://www.google.com/url?q=https://www.sandiegouniontribune.com/news/courts/story/2021-01-12/multiple-life-terms-for-san-diego-man-who-killed-four-during-2016-spree&sa=D&source=editors&ust=1669232967488109&usg=AOvVaw02n29_BFUHflksA-0cWLmn), [Baton Rouge](https://www.google.com/url?q=https://www.theadvocate.com/baton_rouge/news/courts/article_e05d48fe-62fe-11ea-a388-cbb1de447e45.html&sa=D&source=editors&ust=1669232967488414&usg=AOvVaw2CaMcYYVDI5jI2s49P14No), [Atlanta](https://www.google.com/url?q=https://www.wsbtv.com/news/local/atlanta/killer-says-he-was-helping-homeless-man-by-killing-him/486495405/&sa=D&source=editors&ust=1669232967488711&usg=AOvVaw3F3EKa64QvUKlDT-zLiqdr), [Houston](https://www.google.com/url?q=https://www.mytexasdaily.com/upper-gulf-coast/texas-serial-killer-who-strangled-homeless-and-transgender-women-sentenced/article_a45b2c3a-6705-11ea-8cfb-638c0b757a90.html&sa=D&source=editors&ust=1669232967489088&usg=AOvVaw1GlB42csnCTdlF1Aw9_5om), [Albuquerque](https://www.google.com/url?q=https://www.abqjournal.com/1104656/is-serial-offender-killing-homeless-man.html&sa=D&source=editors&ust=1669232967489362&usg=AOvVaw3qDjBy6c6SSGQTgu92lT02), [Orlando](https://www.google.com/url?q=https://www.sun-sentinel.com/local/broward/fl-sb-serial-killers-victims-20171110-story.html&sa=D&source=editors&ust=1669232967489586&usg=AOvVaw31rP7_VFrUfyaLUkALe488), [Los Angeles](https://www.google.com/url?q=https://www.foxnews.com/us/homeless-man-says-alleged-serial-killer-illegal-immigrant-clobbered-him-with-bolt-cutters-in-california&sa=D&source=editors&ust=1669232967489826&usg=AOvVaw1CYH_bGIorp_8uxGT2UBgx), [Stockton](https://www.google.com/url?q=https://www.kcra.com/amp/article/stockton-serial-killings-homeless-community-fears/41562106&sa=D&source=editors&ust=1669232967490045&usg=AOvVaw0G9G2lsXhNiCs3cOJILbM6) and [probably other cities](https://www.google.com/url?q=https://www.fox5vegas.com/2022/09/22/las-vegas-police-say-man-arrested-stabbings-4-homeless-individuals/&sa=D&source=editors&ust=1669232967490272&usg=AOvVaw0bggAlsfRXT-jnZvzBuyK1).
 
-## SERIAL KILLER MAP
+<img src="map-cities-with-serialkillers.png" class="w-50 center db" />
 
 DiPietro points to the nexus of our hyperviolent culture and the dehumanization brought by [criminalizing](https://www.google.com/url?q=https://homelesslaw.org/wp-content/uploads/2022/09/Johnson-v-Grants-Pass-9th-Cir-2022-1.pdf&sa=D&source=editors&ust=1669232967490573&usg=AOvVaw0oP9mp7N_KP-3-g2PPpNUC) homelessness.
 
