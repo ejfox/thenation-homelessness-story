@@ -1,5 +1,5 @@
 <template>
-  <main class="f4">
+  <main class="f3">
     <ContentDoc />
   </main>
 </template>

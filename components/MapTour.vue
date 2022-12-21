@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div id="map-container" ref="mapContainer" class="w-two-thirds vh-100 fl"></div>
-    <div id="map-info" ref="mapInfo" class="w-third vh-100 fl">
+    <div id="map-container" ref="mapContainer" class="w-50 vh-100 fl"></div>
+    <div id="map-info" ref="mapInfo" class="w-50 vh-100 fl">
       <div class="pa3">
         <!-- <h2 class="f3 fw4 mt0 mb3">Map tour</h2> -->
         <!-- <p class="lh-copy measure mt0">
@@ -25,7 +25,7 @@
 <script setup>
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { csvParse } from 'd3'
+import { csvParse, scaleLinear } from 'd3'
 const mapContainer = ref(null);
 const map = ref(null)
 const cities = ref(null)
@@ -80,13 +80,22 @@ onMounted(() => {
       // set active city to first city
       activeCity.value = cities.value[0]
 
+      // set up murders scale
+      const murdersScale = scaleLinear()
+        .domain([0,100])
+        .range([10, 172])
+
       // draw a red circle for every city, and when it is clicked, make it the activeCity
       cities.value.forEach((city) => {
         const el = document.createElement('div');
         el.className = 'marker';
         el.style.backgroundColor = 'red'
-        el.style.width = '20px';
-        el.style.height = '20px';
+        // el.style.width = '20px';
+        // el.style.height = '20px';
+
+        // use our murdersScale to set the area of the marker
+        el.style.width = murdersScale(city["2021"]) + 'px';
+        el.style.height = murdersScale(city["2021"]) + 'px';
         el.style.cursor = 'pointer';
         el.addEventListener('click', () => {
           activeCity.value = city;
