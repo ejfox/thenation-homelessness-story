@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   css: ["tachyons/css/tachyons.min.css"],
   modules: ['@nuxt/content'],
   content: {
+    documentDriven: true,
     markdown: {
       remarkPlugins: [
         'remark-unwrap-images'

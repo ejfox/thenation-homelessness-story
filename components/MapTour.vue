@@ -10,21 +10,36 @@
         <p v-if="activeCity">
           <CityReportCard :city-name="activeCity.name" :key="activeCity.name" />
 
-          <!-- show the names of the next and previous cities, if clicked, set that city to the activeCity -->
-          <span v-if="prevCity">
-            <button class="w-50 dib" @click="setActiveCity(prevCity)">⬅️ {{prevCity.name}}</button>
+          <!-- <span v-if="prevCity" class="">
+            <button class="w-50 dib f3 bg-white pa3 ba b--gray br3" @click="setActiveCity(prevCity)">Back: {{prevCity.name}}</button>
           </span>
           <span v-if="nextCity">
-            <button class="w-50 dib" @click="setActiveCity(nextCity)">{{nextCity.name}} ➡️</button>
+            <button class="w-50 dib f3 bg-white pa3 ba b--gray br3" @click="setActiveCity(nextCity)">Next: {{nextCity.name}}</button>
+          </span> -->
+
+          <!-- refactor so that buttons have an internal span for spacing between buttons -->
+          <span v-if="prevCity" class="w-50 dib">
+            <button class="w-100 dib f3 bg-white pa3 bn" @click="setActiveCity(prevCity)">
+              <span class="pa1 ba b--gray db">Back: {{prevCity.name}}</span>
+            </button>
           </span>
+
+          <span v-if="nextCity" class="w-50 dib">
+            <button class="w-100 dib f3 bg-white pa3 bn" @click="setActiveCity(nextCity)">
+              <span class="pa1 ba b--gray db">Next: {{nextCity.name}}</span>
+            </button>
+          </span>
+
         </p>
       </div>
     </div>
   </div>
 </template>
 <script setup>
-import mapboxgl from 'mapbox-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
+// import mapboxgl from 'mapbox-gl';
+// import 'mapbox-gl/dist/mapbox-gl.css';
+import maplibregl from 'maplibre-gl';
+import 'maplibre-gl/dist/maplibre-gl.css';
 import { csvParse, scaleLinear } from 'd3'
 const mapContainer = ref(null);
 const map = ref(null)
@@ -54,20 +69,19 @@ function setActiveCity(city) {
   activeCity.value = city
   map.value.flyTo({
     center: [city.lon, city.lat],
-    zoom: 10
+    zoom: 7
   })
 }
 
 // set up mapbox gl map
 onMounted(() => {
-  map.value = new mapboxgl.Map({
+  map.value = new maplibregl.Map({
     container: mapContainer.value,
-    style: 'mapbox://styles/mapbox/streets-v11',
-    // centered on a full view of the US
+    style: `https://api.maptiler.com/maps/streets-v2/style.json?key=r7rxV4ywyVD4sm1dYKUl`,    // centered on a full view of the US
     center: [-98.5795, 39.8283],
     zoom: 3,
-    accessToken:
-          'pk.eyJ1IjoiZWpmb3giLCJhIjoiY2lyZjd0bXltMDA4b2dma3JzNnA0ajh1bSJ9.iCmlE7gmJubz2RtL4RFzIw',
+    // accessToken:
+          // 'pk.eyJ1IjoiZWpmb3giLCJhIjoiY2lyZjd0bXltMDA4b2dma3JzNnA0ajh1bSJ9.iCmlE7gmJubz2RtL4RFzIw',
   });
   
   // load cities from cities.csv file
@@ -100,7 +114,7 @@ onMounted(() => {
         el.addEventListener('click', () => {
           activeCity.value = city;
         });
-        new mapboxgl.Marker(el)
+        new maplibregl.Marker(el)
           .setLngLat([city.lon, city.lat])
           .addTo(map.value);
       });
